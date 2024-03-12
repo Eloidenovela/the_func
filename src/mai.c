@@ -86,7 +86,7 @@ char** getFileValues(const char* path, size_t line, size_t column)
 
 int main() 
 {
-    size_t size = 4, length = 100;
+    size_t size = 5, length = 100;
     char **arr = getFileValues("../names.txt", size, length);
 
     for (size_t i = 0 ; i < size ; i++) {
